@@ -8,6 +8,7 @@ var socket = io.connect("http://localhost:4000");
 var message = document.getElementById('message');
     handle = document.getElementById('handle'),
     send = document.getElementById('send'),
+    btn = document.getElementById('send'),
     output = document.getElementById('output');
 
 //Emit Events
